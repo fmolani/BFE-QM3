@@ -20,15 +20,11 @@ In addition, the VM2 workflow and its associated external dependencies should be
 
 ## Usage
 
-Detailed instructions for installing the required dependencies and running the individual modules are provided in the `README.md` file located in the `src` directory.
+## Usage
 
-Please refer to:
+Detailed instructions for executing the complete BFE-QM3 workflow are available in:
 
-```text
-src/README.md
-```
-
-for step-by-step execution instructions and example workflows.
+`src/README.md`
 
 
 <img width="628" height="520" alt="image" src="https://github.com/user-attachments/assets/e861f196-0161-4b49-8dda-d0fadf020a4f" />
