@@ -1,0 +1,9 @@
+protein_p4a_tleap--lig_11,-10.067
+protein_p4a_tleap--lig_32,-10.002
+protein_p4a_tleap--lig_21,-11.228
+protein_p4a_tleap--lig_25,-9.714
+protein_p4a_tleap--lig_20,-9.817
+protein_p4a_tleap--lig_41,-9.499
+protein_p4a_tleap--lig_22,-11.641
+protein_p4a_tleap--lig_24,-8.671
+protein_p4a_tleap--lig_23,-11.431

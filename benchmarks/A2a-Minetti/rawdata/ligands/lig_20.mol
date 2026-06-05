@@ -1,0 +1,272 @@
+Compound 25a
+                    3D
+ Schrodinger Suite 2021-2.
+ 27 29  0  0  1  0            999 V2000
+    7.2330   -1.3409   15.7744 C   0  0  0  0  0  0
+    6.6808   -0.7111   14.7336 N   0  0  0  0  0  0
+    6.8311   -2.4686   16.3716 N   0  0  0  0  0  0
+    8.4776   -0.6977   16.3495 C   0  0  0  0  0  0
+    8.5119   -0.8189   17.4327 H   0  0  0  0  0  0
+    9.3681   -1.1596   15.9231 H   0  0  0  0  0  0
+    8.5070    0.3702   16.1296 H   0  0  0  0  0  0
+    5.7311   -3.1124   15.9182 C   0  0  0  0  0  0
+    5.5627   -1.3558   14.2905 C   0  0  0  0  0  0
+    5.3605   -4.2436   16.5298 N   0  0  0  0  0  0
+    4.5985   -4.8050   16.1670 H   0  0  0  0  0  0
+    5.7592   -4.5003   17.4401 H   0  0  0  0  0  0
+    5.0222   -2.5564   14.8243 C   0  0  0  0  0  0
+    4.7277   -0.9983   13.2450 N   0  0  0  0  0  0
+    3.8777   -2.9171   14.1297 N   0  0  0  0  0  0
+    4.8959    0.1568   12.3799 C   0  0  0  0  0  0
+    4.9129   -0.1606   11.3370 H   0  0  0  0  0  0
+    4.0756    0.8578   12.5370 H   0  0  0  0  0  0
+    5.8335    0.6676   12.5995 H   0  0  0  0  0  0
+    3.7408   -1.9757   13.2270 C   0  0  0  0  0  0
+    2.6561   -2.0183   12.2950 N   0  0  0  0  0  0
+    1.8777   -3.1299   12.1298 N   0  0  0  0  0  0
+    1.0347   -2.7752   11.1959 C   0  0  0  0  0  0
+    0.2780   -3.4566   10.8364 H   0  0  0  0  0  0
+    1.2908   -1.4436   10.8091 C   0  0  0  0  0  0
+    0.7843   -0.8375   10.0709 H   0  0  0  0  0  0
+    2.2948   -0.9698   11.5018 N   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  2  0  0  0
+  1  4  1  0  0  0
+  2  9  2  0  0  0
+  3  8  1  0  0  0
+  4  5  1  0  0  0
+  4  6  1  0  0  0
+  4  7  1  0  0  0
+  8 10  1  0  0  0
+  8 13  2  0  0  0
+  9 13  1  0  0  0
+  9 14  1  0  0  0
+ 10 11  1  0  0  0
+ 10 12  1  0  0  0
+ 13 15  1  0  0  0
+ 14 20  1  0  0  0
+ 14 16  1  0  0  0
+ 15 20  2  0  0  0
+ 16 17  1  0  0  0
+ 16 18  1  0  0  0
+ 16 19  1  0  0  0
+ 20 21  1  0  0  0
+ 21 22  1  0  0  0
+ 21 27  1  0  0  0
+ 22 23  2  0  0  0
+ 23 25  1  0  0  0
+ 23 24  1  0  0  0
+ 25 27  2  0  0  0
+ 25 26  1  0  0  0
+M  END
+> <s_m_entry_id>
+6
+
+> <s_m_entry_name>
+Compound 25a
+
+> <s_m_Source_Path>
+C:\Users\Farzad\Desktop\GPCR-mod\Minetti
+
+> <s_m_Source_File>
+fep_mapper_a2a_4eiy-run_out_pv.mae
+
+> <r_psp_Prime_Coulomb>
+-8390.880455
+
+> <r_psp_Prime_Covalent>
+1803.926273
+
+> <r_psp_Prime_vdW>
+1112.691893
+
+> <r_psp_Prime_Solv_GB>
+-1582.30466
+
+> <r_psp_Prime_Energy>
+-7095.732508
+
+> <i_m_Source_File_Index>
+6
+
+> <s_fep_ccc_dG>
+0.12+-0.46
+
+> <r_wm_WM_ligand_-T*deltaS>
+-14.4
+
+> <r_wm_WM_ligand_deltaH>
+-6.9
+
+> <s_m_job_name>
+glide-dock_SP_4eiy-relax
+
+> <i_i_glide_lignum>
+8
+
+> <r_i_docking_score>
+-9.71906358963785
+
+> <r_i_glide_gscore>
+-9.71906358963785
+
+> <r_i_glide_evdw>
+-33.4407043457031
+
+> <r_i_glide_ecoul>
+-8.44454765319824
+
+> <r_i_glide_energy>
+-41.8852519989014
+
+> <r_i_glide_einternal>
+0.107292458415031
+
+> <r_i_glide_emodel>
+-66.4078884788395
+
+> <r_i_glide_ligand_efficiency>
+-0.571709622919873
+
+> <r_i_glide_ligand_efficiency_sa>
+-1.47002642722773
+
+> <r_i_glide_ligand_efficiency_ln>
+-2.53548725763157
+
+> <i_i_glide_confnum>
+1
+
+> <i_i_glide_posenum>
+17
+
+> <r_i_glide_rmsd>
+0.232309
+
+> <r_user_dG>
+-9.813439
+
+> <r_user_Ki(nM)>
+70.4
+
+> <r_user_Ki(uM)>
+0.0704
+
+> <s_watermap_type>
+ligand
+
+> <r_mmod_Potential_Energy-OPLS-2005>
+-89.977669
+
+> <r_mmod_Stretch_Energy-OPLS-2005>
+4.597318
+
+> <r_mmod_Bend_Energy-OPLS-2005>
+15.155507
+
+> <r_mmod_Torsional_Energy-OPLS-2005>
+7.493522
+
+> <r_mmod_Improper_Torsional_Energy-OPLS-2005>
+0.045684
+
+> <r_mmod_Van_der_Waal_Energy-OPLS-2005>
+22.780085
+
+> <r_mmod_Electrostatic_Energy-OPLS-2005>
+-85.873856
+
+> <r_mmod_Solvation_Energy-OPLS-2005>
+-54.17593
+
+> <b_mmod_Minimization_Converged-OPLS-2005>
+1
+
+> <r_mmod_RMS_Derivative-OPLS-2005>
+0.018537
+
+> <r_i_glide_lipo>
+-1.53004505085237
+
+> <r_i_glide_hbond>
+-0.72
+
+> <r_i_glide_metal>
+0
+
+> <r_i_glide_rewards>
+-4.76434568181818
+
+> <r_i_glide_erotb>
+0.322247745299364
+
+> <r_i_glide_esite>
+-0.0882032370017669
+
+> <s_pdb_PDB_format_version>
+3.0
+
+> <r_psp_Prime_Energy_Difference>
+-15.97
+
+> <r_psp_Prime_Solv_SA>
+-39.165559
+
+> <r_psp_Prime_MMGBSA_Complex_Energy>
+-7095.732508
+
+> <r_psp_Prime_MMGBSA_Ligand_Energy>
+-17.443063
+
+> <r_psp_Prime_MMGBSA_Receptor_Energy>
+-7044.983949
+
+> <r_psp_Prime_MMGBSA_Ligand_in_Complex_Energy>
+-16.448624
+
+> <r_psp_Prime_MMGBSA_Ligand_Strain_Energy>
+0.99444
+
+> <r_psp_Prime_MMGBSA_DG_bind>
+-33.305495
+
+> <r_psp_Prime_MMGBSA_DG_bind_no_Ligand_Strain>
+-34.299935
+
+> <r_m_Shape_Sim>
+0.953124609333786
+
+> <s_fepmapper_entryid>
+48
+
+> <i_fepmapper_bias>
+0
+
+> <i_fepmapper_affinity>
+1
+
+> <r_wm_WM_ligand_deltaG>
+-21.3
+
+> <r_fepmapper_exp_dG>
+-9.813439
+
+> <i_fepmapper_unit>
+1
+
+> <s_i_glide_gridfile>
+glide-grid_4eiy-relax
+
+> <r_i_glide_eff_state_penalty>
+0
+
+> <s_m_subgroup_title>
+fep_mapper_a2a_4eiy-run_out_pv
+
+> <s_m_subgroupid>
+fep_mapper_a2a_4eiy-run_out_pv
+
+> <b_m_subgroup_collapsed>
+0
+
+$$$$
