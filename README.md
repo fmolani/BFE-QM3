@@ -170,3 +170,22 @@ The final output of the workflow is the QM/MM-refined binding free energy predic
 
 <img width="471" height="394" alt="image" src="https://github.com/user-attachments/assets/aea5c48c-98a4-42fb-a7cc-37633becdbb1" />
 
+## How to Cite
+
+If you use **BFE-QM3** in your research, please cite:
+
+```bibtex
+@article{molani2026bfeqm3,
+  title   = {A hybrid computational framework decoupling configurational entropy and electronic-structure refinement for scalable multiscale free-energy prediction},
+  author  = {Molani, Farzad and Cho, Art E.},
+  journal = {arXiv preprint arXiv:2512.06141},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2512.06141}
+}
+```
+
+**Preprint:**
+
+https://arxiv.org/abs/2512.06141
+
+
