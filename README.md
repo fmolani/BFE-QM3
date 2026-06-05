@@ -121,11 +121,6 @@ The final binding free energy combines the classical VM2 free-energy estimate wi
 
 For the complete mathematical formulation of ΔG, ΔU, ΔW, and the QM correction term, please refer to Equations (1)–(6) of the accompanying manuscript.
 
-## Usage
-
-Detailed instructions for executing the complete BFE-QM3 workflow are available in:
-
-`src/README.md`
 
 ## How to Run
 
