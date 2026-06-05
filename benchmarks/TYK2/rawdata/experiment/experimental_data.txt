@@ -1,0 +1,16 @@
+protein_p4a--lig_23,-11.70
+protein_p4a--lig_27,-11.28
+protein_p4a--lig_28,-10.98
+protein_p4a--lig_30,-10.94
+protein_p4a--lig_31,-9.54
+protein_p4a--lig_42,-9.78
+protein_p4a--lig_43,-8.26
+protein_p4a--lig_44,-7.42
+protein_p4a--lig_45,-9.56
+protein_p4a--lig_46,-11.31
+protein_p4a--lig_47,-9.70
+protein_p4a--lig_48,-9.00
+protein_p4a--lig_49,-7.75
+protein_p4a--lig_50,-8.98
+protein_p4a--lig_54,-10.53
+protein_p4a--lig_55,-9.21
