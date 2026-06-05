@@ -31,6 +31,96 @@ The workflow has been tested with the following software:
 In addition, the VM2 workflow and its associated external dependencies (https://www.verachem.com/) should be installed and configured according to the corresponding software documentation.
 
 
+---
+
+## Algorithmic Details & Computational Parameters
+
+### 1. QM Charge Derivation (QMFF)
+
+**Method:** HF/ma-def2-SVP + ddCOSMO (water)
+
+**Software:** PySCF
+
+#### RESP Charge Fitting
+
+| Parameter | Value |
+|-----------|---------|
+| Probe radius | 0.7 Å |
+| α (non-H atoms) | 0.001 au |
+| β (non-H atoms) | 0.1 au |
+| Maximum iterations | 25 |
+| Convergence threshold | 1.0 × 10⁻⁴ electrons |
+
+---
+
+### 2. Classical Minima Mining (MM-VM2)
+
+#### Search Algorithms
+
+- Rigid-body translation/rotation search
+- Mode distort-minimize search
+
+#### Solvation
+
+| Stage | Model |
+|---------|---------|
+| Minima search | Generalized Born (GB) |
+| Final evaluation | Poisson-Boltzmann Surface Area (PBSA) |
+
+#### Dielectric Constants
+
+- Protein: 1
+- Solvent: 80
+
+#### Flexible Regions
+
+- Live set: Ligand + residues within 4 Å
+- Real set: Atoms within 6 Å of the live region
+
+#### Entropy
+
+- Harmonic approximation
+- Mode scanning
+
+---
+
+### 3. Hybrid QM/MM + VQE Refinement
+
+#### Ligand VQE
+
+| Parameter | Value |
+|-----------|---------|
+| Quantum emulator | 10 qubits |
+| Active electrons | 6 |
+| Basis | MINAO |
+| Ansatz | UCCSD |
+| Mapping | Symmetry-conserving Bravyi-Kitaev (scBK) |
+| Optimizer | SLSQP |
+
+#### QM/MM Complex
+
+| Parameter | Value |
+|-----------|---------|
+| QM method | B3LYP-D4 |
+| QM basis | def2-SVPD |
+| RI approximation | RI-DFT (def2-universal-jfit) |
+| MM force field | ff99SB point charges |
+| QM/MM embedding | Electrostatic embedding |
+| MM cutoff | Residues within 8.0 Å of ligand |
+
+#### Scaling Factors
+
+- QM correction scaling factor (α): 1.59 × 10⁻³
+- Universal Scaling Factor (USF): 0.50
+
+---
+
+### 4. Free Energy Expression
+
+The final binding free energy combines the classical VM2 free-energy estimate with the QM/MM-VQE correction term.
+
+For the complete mathematical formulation of ΔG, ΔU, ΔW, and the QM correction term, please refer to Equations (1)–(6) of the accompanying manuscript.
+
 ## Usage
 
 Detailed instructions for executing the complete BFE-QM3 workflow are available in:
