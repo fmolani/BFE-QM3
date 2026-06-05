@@ -1,0 +1,16 @@
+protein_p4a_tleap--lig_37,-10.15419772
+protein_p4a_tleap--lig_38,-9.670802221
+protein_p4a_tleap--lig_39,-10.02118185
+protein_p4a_tleap--lig_40,-10.02118185
+protein_p4a_tleap--lig_41,-10.02118185
+protein_p4a_tleap--lig_42,-9.912499972
+protein_p4a_tleap--lig_43,-9.820610752
+protein_p4a_tleap--lig_44,-9.499314938
+protein_p4a_tleap--lig_45,-10.02118185
+protein_p4a_tleap--lig_46,-10.21700313
+protein_p4a_tleap--lig_47,-10.15419772
+protein_p4a_tleap--lig_48,-9.366299067
+protein_p4a_tleap--lig_52,-9.0618
+protein_p4a_tleap--lig_26,-7.68922
+protein_p4a_tleap--lig_27,-7.56100
+protein_p4a_tleap--lig_28,-7.75203
