@@ -1,0 +1,25 @@
+=====================================
+==== FULL DATA STATISTICS ==========
+=====================================
+Pearson Correlation  : 0.7474
+Spearman Correlation : 0.7604
+Kendall Correlation  : 0.5743
+MAE                  : 1.1037
+RMSE                 : 1.5153
+Standard Deviation   : 1.5167
+Slope (Calc vs Exp)  : 1.0393
+Intercept            : 0.3866
+
+=====================================
+==== TOP 5% OUTLIERS REMOVED =======
+=====================================
+Removed 27 outliers (5% of data):
+
+Pearson Correlation  : 0.8090
+Spearman Correlation : 0.7981
+Kendall Correlation  : 0.6068
+MAE                  : 0.9384
+RMSE                 : 1.1880
+Standard Deviation   : 1.1860
+Slope (Calc vs Exp)  : 1.0001
+Intercept            : -0.0855

@@ -1,0 +1,9 @@
+File: stacked_BFEQM3.csv
+---------------------------------
+Pearson Correlation  : 0.7474
+Spearman Correlation : 0.7604
+Kendall Correlation  : 0.5743
+MAE                  : 1.1037
+RMSE                 : 1.5153
+Standard Deviation   : 1.5167
+Slope (Calc vs Exp)  : 1.0393
