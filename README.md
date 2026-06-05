@@ -16,7 +16,7 @@ The workflow has been tested with the following software:
 - OpenMM
 - Tangelo 0.4.3
 
-In addition, the VM2 workflow and its associated external dependencies should be installed and configured according to the corresponding software documentation.
+In addition, the VM2 workflow and its associated external dependencies (https://www.verachem.com/) should be installed and configured according to the corresponding software documentation.
 
 
 ## Usage
