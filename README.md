@@ -17,3 +17,6 @@ The workflow has been tested with the following software:
 - Tangelo 0.4.3
 
 In addition, the VM2 workflow and its associated external dependencies should be installed and configured according to the corresponding software documentation.
+
+<img width="628" height="520" alt="image" src="https://github.com/user-attachments/assets/e861f196-0161-4b49-8dda-d0fadf020a4f" />
+
