@@ -1,0 +1,16 @@
+protein--lig_11,-8.199  
+protein--lig_12,-7.688  
+protein--lig_13,-9.765  
+protein--lig_14,-9.106  
+protein--lig_15,-11.273 
+protein--lig_16,-9.809 
+protein--lig_17,-7.046  
+protein--lig_20,-8.724  
+protein--lig_21,-7.833  
+protein--lig_22,-7.867  
+protein--lig_26,-8.436  
+protein--lig_28,-11.120 
+protein--lig_29,-9.888  
+protein--lig_30,-9.819  
+protein--lig_31,-9.545  
+protein--lig_32,-9.756  
