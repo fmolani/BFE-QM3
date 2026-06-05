@@ -10,12 +10,9 @@ We introduce BFE-QM3 (read BFE-QM “cubed”), a computational framework that e
 
 ## Requirements
 
-The workflow has been tested with the following software:
+The workflow has been tested with the following main software:
 
-- NumPy
-- SciPy
-- PySCF
-- OpenMM
+- PySCF 2.12
 - Tangelo 0.4.3
 
 In addition, the VM2 workflow and its associated external dependencies (https://www.verachem.com/) should be installed and configured according to the corresponding software documentation.
