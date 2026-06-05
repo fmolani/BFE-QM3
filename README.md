@@ -8,16 +8,6 @@ Accurate free-energy estimation in high-dimensional molecular systems remains a 
 
 We introduce BFE-QM3 (read BFE-QM “cubed”), a computational framework that explicitly decouples configurational entropy from electronic-structure refinement. It is devised as a refined Binding Free-Energy workflow that integrates Quantum-Mechanically derived ESP ligand charges, Mining-Minima–based thermodynamic sampling, and interaction energy corrections evaluated using a QM/MM framework augmented by VQE calculations. The central idea is to treat the configurational ensemble using statistical thermodynamics over representative minima, while applying quantum-mechanical corrections only where they are most informative at the level of interaction energies within localized binding environments. This separation allows electronic accuracy to be introduced in a controlled and scalable manner, without requiring quantum-level evaluation of the full configurational space. 
 
-#Key Features
-
-Decoupled entropy–electronic workflow
-QM-derived ESP (RESP) ligand charges (QMFF)
-Classical Mining Minima (MM-VM2) thermodynamic sampling
-Hybrid QM/MM + Variational Quantum Eigensolver (VQE) interaction energy refinement
-Universal Scaling Factor (USF) for final ΔG values
-Modular design — easily swap classical QM/MM with future quantum solvers
-
-
 ## Requirements
 
 The workflow has been tested with the following software:
