@@ -1,0 +1,143 @@
+lig_11
+                    3D
+ Schrodinger Suite 2023-4.
+ 26 27  0  0  1  0            999 V2000
+  -23.2942  -13.1244   25.4130 C   0  0  0  0  0  0
+  -24.5422  -13.4644   24.7190 C   0  0  0  0  0  0
+  -25.4482  -12.3154   24.8490 N   0  0  0  0  0  0
+  -24.9262  -11.1584   24.1260 C   0  0  0  0  0  0
+  -23.6182  -10.6504   24.6450 C   0  0  0  0  0  0
+  -22.7302  -11.7734   25.0780 N   0  0  0  0  0  0
+  -21.3810  -11.5560   25.2700 C   0  0  0  0  0  0
+  -20.7630  -11.9770   26.3940 C   0  0  0  0  0  0
+  -19.4410  -11.7620   26.5690 C   0  0  0  0  0  0
+  -18.6940  -11.1350   25.6520 C   0  0  0  0  0  0
+  -19.2610  -10.6770   24.4790 C   0  0  0  0  0  0
+  -20.6190  -10.8980   24.2850 C   0  0  0  0  0  0
+  -22.5459  -13.8892   25.2049 H   0  0  0  0  0  0
+  -23.4500  -13.1933   26.4896 H   0  0  0  0  0  0
+  -24.9934  -14.3373   25.1907 H   0  0  0  0  0  0
+  -24.3334  -13.6443   23.6644 H   0  0  0  0  0  0
+  -25.6618  -10.3545   24.1516 H   0  0  0  0  0  0
+  -24.8233  -11.4086   23.0701 H   0  0  0  0  0  0
+  -23.7969   -9.9834   25.4883 H   0  0  0  0  0  0
+  -23.1191  -10.0725   23.8672 H   0  0  0  0  0  0
+  -21.0899  -10.5622   23.3729 H   0  0  0  0  0  0
+  -26.3530  -12.5549   24.4695 H   0  0  0  0  0  0
+  -21.3259  -12.4893   27.1602 H   0  0  0  0  0  0
+  -17.6390  -10.9838   25.8265 H   0  0  0  0  0  0
+  -18.9538  -12.0999   27.4717 H   0  0  0  0  0  0
+  -18.6517  -10.1658   23.7483 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  6  1  0  0  0
+  1 13  1  0  0  0
+  1 14  1  0  0  0
+  2  3  1  0  0  0
+  2 15  1  0  0  0
+  2 16  1  0  0  0
+  3  4  1  0  0  0
+  3 22  1  0  0  0
+  4  5  1  0  0  0
+  4 17  1  0  0  0
+  4 18  1  0  0  0
+  5  6  1  0  0  0
+  5 19  1  0  0  0
+  5 20  1  0  0  0
+  6  7  1  0  0  0
+  7  8  1  0  0  0
+  7 12  2  0  0  0
+  8  9  2  0  0  0
+  8 23  1  0  0  0
+  9 10  1  0  0  0
+  9 25  1  0  0  0
+ 10 11  2  0  0  0
+ 10 24  1  0  0  0
+ 11 12  1  0  0  0
+ 11 26  1  0  0  0
+ 12 21  1  0  0  0
+M  END
+> <i_m_Source_File_Index>
+1
+
+> <i_pdb_PDB_CRYST1_z>
+4
+
+> <r_pdb_PDB_CRYST1_a>
+89.852
+
+> <r_pdb_PDB_CRYST1_alpha>
+90
+
+> <r_pdb_PDB_CRYST1_b>
+61.441
+
+> <r_pdb_PDB_CRYST1_beta>
+108.89
+
+> <r_pdb_PDB_CRYST1_c>
+100.784
+
+> <r_pdb_PDB_CRYST1_gamma>
+90
+
+> <r_pdb_PDB_EXPDTA_PH>
+9
+
+> <r_pdb_PDB_EXPDTA_TEMPERATURE>
+100
+
+> <r_pdb_PDB_R>
+0.22
+
+> <r_pdb_PDB_RESOLUTION>
+2.8
+
+> <r_pdb_PDB_Rfree>
+0.274
+
+> <s_m_Source_File>
+lig_11.mol
+
+> <s_m_Source_Path>
+C:\Users\Farzad\Desktop\opted\rawdata\ligands
+
+> <s_m_entry_id>
+20
+
+> <s_m_entry_name>
+3zpq.1
+
+> <s_pdb_PDB_CLASSIFICATION>
+MEMBRANE PROTEIN
+
+> <s_pdb_PDB_CRYST1_Space_Group>
+P 1 21 1
+
+> <s_pdb_PDB_DEPOSITION_DATE>
+01-MAR-13
+
+> <s_pdb_PDB_EXPDTA>
+X-RAY DIFFRACTION
+
+> <s_pdb_PDB_ID>
+3ZPQ
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains>
+A
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1>
+1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_2_Transform_1_Chains>
+B
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_2_Transform_1_Matrix_1>
+1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000
+
+> <s_pdb_PDB_TITLE>
+THERMOSTABILISED TURKEY BETA1 ADRENERGIC RECEPTOR WITH 4-(PIPERAZIN-1- YL)-1H-INDOLE BOUND (COMPOUND 19)
+
+> <s_pdb_PDB_format_version>
+3.30
+
+$$$$
