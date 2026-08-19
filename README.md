@@ -95,9 +95,9 @@ In addition, the VM2 workflow and its associated external dependencies (https://
 | QM/MM embedding | Electrostatic embedding |
 | MM cutoff | Residues within 8.0 Å of ligand |
 
-#### Scaling Factors
+#### Coefficient and Scaling Factor
 
-- QM correction scaling factor (γ): 1.59 × 10⁻³
+- Energy Correction Coefficient (γ): 1.59 × 10⁻³
 - Universal Scaling Factor (USF): 0.50
 
 ---
