@@ -97,7 +97,7 @@ In addition, the VM2 workflow and its associated external dependencies (https://
 
 #### Scaling Factors
 
-- QM correction scaling factor (α): 1.59 × 10⁻³
+- QM correction scaling factor (γ): 1.59 × 10⁻³
 - Universal Scaling Factor (USF): 0.50
 
 ---
@@ -106,7 +106,7 @@ In addition, the VM2 workflow and its associated external dependencies (https://
 
 The final binding free energy combines the classical VM2 free-energy estimate with the QM/MM-VQE correction term.
 
-For the complete mathematical formulation of ΔG, ΔU, ΔW, and the QM correction term, please refer to Equations (1)–(6) of the accompanying manuscript.
+For the complete mathematical formulation of ΔG, ΔE, ΔW, and the QM correction term, please refer to Equations (1)–(6) of the accompanying manuscript.
 
 
 ## How to Run
