@@ -1,0 +1,23 @@
+File: stacked_MMVM2.csv
+N points: 543
+Bootstrap resamples: 10000, CI level: 95%
+---------------------------------
+
+Correlation statistics (point estimate, 95% bootstrap CI, bootstrap SE, analytic p-value)
+Pearson r   : 0.6996  CI[0.6504, 0.7447]  SE=0.0239  p=5.126e-81
+Spearman rho: 0.6943  CI[0.6393, 0.7424]  SE=0.0263  p=2.463e-79
+Kendall tau : 0.5135  CI[0.4677, 0.5569]  SE=0.0227  p=1.587e-71
+
+Error statistics (point estimate, 95% bootstrap CI, bootstrap SE)
+MAE  : 1.1138  CI[1.0264, 1.2027]  SE=0.0449
+RMSE : 1.5224  CI[1.3817, 1.6657]  SE=0.0723
+SD   : 1.5238  CI[1.3815, 1.6656]  SE=0.0724
+
+Linear regression: Calc = slope*Exp + intercept
+Slope     : 0.9049  CI[0.8183, 0.9917]  SE(analytic)=0.0397  SE(boot)=0.0442
+Intercept : -0.9355  CI[-1.8116, -0.0519]  SE(boot)=0.4528
+R (regression)  : 0.6996
+p-value (slope != 0): 5.126e-81
+
+Target-level uncertainty: see accompanying CSV for per-point residuals,
+95% prediction-interval half-widths, and flags for points outside that band.

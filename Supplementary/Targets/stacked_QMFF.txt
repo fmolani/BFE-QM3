@@ -1,0 +1,23 @@
+File: stacked_QMFF.csv
+N points: 543
+Bootstrap resamples: 10000, CI level: 95%
+---------------------------------
+
+Correlation statistics (point estimate, 95% bootstrap CI, bootstrap SE, analytic p-value)
+Pearson r   : 0.7326  CI[0.6936, 0.7700]  SE=0.0197  p=1.874e-92
+Spearman rho: 0.7400  CI[0.6922, 0.7823]  SE=0.0231  p=2.990e-95
+Kendall tau : 0.5551  CI[0.5132, 0.5947]  SE=0.0210  p=2.915e-83
+
+Error statistics (point estimate, 95% bootstrap CI, bootstrap SE)
+MAE  : 1.0575  CI[0.9748, 1.1430]  SE=0.0431
+RMSE : 1.4584  CI[1.3225, 1.6002]  SE=0.0705
+SD   : 1.4598  CI[1.3211, 1.5992]  SE=0.0706
+
+Linear regression: Calc = slope*Exp + intercept
+Slope     : 0.9568  CI[0.8801, 1.0396]  SE(analytic)=0.0382  SE(boot)=0.0409
+Intercept : -0.4245  CI[-1.2162, 0.4262]  SE(boot)=0.4236
+R (regression)  : 0.7326
+p-value (slope != 0): 1.874e-92
+
+Target-level uncertainty: see accompanying CSV for per-point residuals,
+95% prediction-interval half-widths, and flags for points outside that band.

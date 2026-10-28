@@ -1,0 +1,55 @@
+Bootstrap analysis results  2026-10-22 15:29:40
+======================================================================
+
+======================================================================
+UNPAIRED 95% BOOTSTRAP INTERVALS
+======================================================================
+
+output_MM_scaled_offset.csv  (n = 42)
+  Pearson R     :    0.50   [   0.20,    0.70]
+  Spearman rho  :    0.42   [   0.15,    0.63]
+  Kendall tau   :    0.28   [   0.09,    0.46]
+  MAE  (kcal/mol):    1.30   [   0.97,    1.66]
+  RMSE (kcal/mol):    1.74   [   1.28,    2.18]
+  SD   (kcal/mol):    1.16   [   0.78,    1.46]
+  Slope         :    0.89   [   0.33,    1.54]
+
+output_QMFF_scaled_offset.csv  (n = 42)
+  Pearson R     :    0.50   [   0.20,    0.70]
+  Spearman rho  :    0.42   [   0.15,    0.63]
+  Kendall tau   :    0.28   [   0.09,    0.46]
+  MAE  (kcal/mol):    1.30   [   0.97,    1.66]
+  RMSE (kcal/mol):    1.74   [   1.28,    2.18]
+  SD   (kcal/mol):    1.16   [   0.78,    1.46]
+  Slope         :    0.89   [   0.33,    1.54]
+
+output_QM3_scaled_offset.csv  (n = 42)
+  Pearson R     :    0.51   [   0.23,    0.71]
+  Spearman rho  :    0.47   [   0.22,    0.67]
+  Kendall tau   :    0.33   [   0.15,    0.50]
+  MAE  (kcal/mol):    1.38   [   1.05,    1.75]
+  RMSE (kcal/mol):    1.81   [   1.35,    2.24]
+  SD   (kcal/mol):    1.16   [   0.79,    1.45]
+  Slope         :    0.95   [   0.39,    1.62]
+
+======================================================================
+PAIRED BOOTSTRAP DIFFERENCE ANALYSIS
+======================================================================
+n = 42
+delta = TEST - BASE
+TEST = output_QM3_scaled_offset.csv
+BASE = output_MM_scaled_offset.csv
+
+metric            delta                 95% CI  exclude0  better
+----------------------------------------------------------------------
+Pearson R          0.01   [  -0.01,    0.05]  False     ns
+Spearman rho       0.05   [  -0.02,    0.14]  False     ns
+Kendall tau        0.05   [  -0.01,    0.13]  False     ns
+RMSE               0.06   [  -0.00,    0.14]  False     ns
+MAE                0.08   [   0.01,    0.16]  True      BASE
+Slope              0.06   [   0.01,    0.14]  True      -
+|Slope-1|         -0.06   [  -0.13,    0.11]  False     ns
+
+Saved: paired_difference_bootstrap.csv
+
+Done.
