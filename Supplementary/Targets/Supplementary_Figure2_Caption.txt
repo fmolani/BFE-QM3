@@ -1,5 +1,3 @@
-Supplementary Data 1
-
 Source data for Figure 2.
 
-This file contains the numerical results underlying the predicted versus experimental binding free energy plots shown in Figure 2 for the complete benchmark dataset (543 ligands across 23 targets). Columns include target name, ligand identifier, experimental binding free energy (kcal/mol), and the corresponding predicted values for MM-VM2, QMFF-VM2, and BFE-QM3 (after target-mean alignment where applicable).
+This file contains the numerical results underlying the predicted versus experimental binding free energy plots shown in Figure 2 for the complete benchmark dataset (543 ligands across 23 targets). Columns include target name and ligand identifier, experimental binding free energy (kcal/mol), and the corresponding predicted values for MM-VM2, QMFF-VM2, and BFE-QM3 (after target-mean alignment where applicable).
